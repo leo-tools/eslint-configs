@@ -11,6 +11,6 @@ yarn add @leo-tools/eslint-config-typescript -D
 ```javascript
 module.exports = {
   // Other settings
-  extends: ['@leo-tools/typescript-eslint-config'],
+  extends: ['@leo-tools/eslint-config-typescript'],
 }
 ```
