@@ -5,7 +5,7 @@
   "author": "tc9011",
   "homepage": "https://github.com/leo-tools/eslint-configs#readme",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "index.js",
   "directories": {
     "test": "__tests__"
   },
