@@ -5,7 +5,7 @@
 ## Usage
 
 ```shell
-yarn add @leo-tools/eslint-config-typescript -D
+yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser @leo-tools/eslint-config-typescript -D
 ```
 
 ```javascript
