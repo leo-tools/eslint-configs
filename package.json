@@ -1,0 +1,22 @@
+{
+  "name": "eslint-configs",
+  "version": "0.0.1",
+  "description": "eslint for different projects",
+  "scripts": {
+    "boostrap": "lerna bootstrap",
+    "publish": "lerna publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "ts",
+    "react"
+  ],
+  "engines": { "node": "^14.15.0 || >=16.0.0" },
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  }
+}
