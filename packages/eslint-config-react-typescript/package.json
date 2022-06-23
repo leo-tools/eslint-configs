@@ -1,0 +1,40 @@
+{
+  "name": "@leo-tools/eslint-config-react-typescript",
+  "version": "0.0.0",
+  "description": "eslint for react ts project",
+  "keywords": [
+    "eslint",
+    "react",
+    "typescript"
+  ],
+  "author": "tc9011",
+  "homepage": "https://github.com/leo-tools/eslint-configs#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [
+    "./"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-tools/eslint-configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leo-tools/eslint-configs/issues"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "@leo-tools/eslint-config-typescript": "^0.0.8",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
