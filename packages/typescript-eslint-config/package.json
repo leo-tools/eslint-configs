@@ -14,6 +14,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
@@ -30,5 +31,5 @@
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0"
   },
-  "gitHead": "c1327ca04e7d1117a0b08301daee454cd7b3c21b"
+  "gitHead": "1b96a24026fd27e34f1ffe574d6160864f9def1e"
 }
