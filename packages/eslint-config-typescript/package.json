@@ -1,7 +1,7 @@
 {
   "name": "@leo-tools/eslint-config-typescript",
   "version": "0.0.8",
-  "description": "> TODO: description",
+  "description": "eslint for typescript",
   "author": "tc9011",
   "homepage": "https://github.com/leo-tools/eslint-configs#readme",
   "license": "MIT",

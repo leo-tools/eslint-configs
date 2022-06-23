@@ -1,11 +1,16 @@
 # `typescrit-config`
 
-> TODO: description
+> eslint for typescript
 
 ## Usage
 
+```shell
+yarn add @leo-tools/eslint-config-typescript -D
 ```
-const typescritConfig = require('typescrit-config');
 
-// TODO: DEMONSTRATE API
+```javascript
+module.exports = {
+  // Other settings
+  extends: ['@leo-tools/typescript-eslint-config'],
+}
 ```
