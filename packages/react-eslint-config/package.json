@@ -1,0 +1,34 @@
+{
+  "name": "@leo-tools/react-eslint-config",
+  "version": "0.0.0",
+  "description": "eslint config for react",
+  "keywords": [
+    "react",
+    "eslint"
+  ],
+  "author": "Cheng Tang <theon.tang@lego.com>",
+  "homepage": "https://github.com/leo-tools/eslint-configs#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-tools/eslint-configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leo-tools/eslint-configs/issues"
+  }
+}
