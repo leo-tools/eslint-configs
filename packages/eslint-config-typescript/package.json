@@ -30,5 +30,11 @@
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0"
   },
-  "gitHead": "1b96a24026fd27e34f1ffe574d6160864f9def1e"
+  "gitHead": "1b96a24026fd27e34f1ffe574d6160864f9def1e",
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }

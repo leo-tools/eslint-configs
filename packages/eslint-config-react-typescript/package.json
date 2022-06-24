@@ -32,9 +32,15 @@
     "url": "https://github.com/leo-tools/eslint-configs/issues"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.18.2",
     "@leo-tools/eslint-config-typescript": "^0.0.9",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint": "^8.18.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
   }
 }
