@@ -12,7 +12,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   extends: [
-    require.resolve('./rules/imports'),
     'plugin:@typescript-eslint/eslint-recommended'
   ],
   rules:{
