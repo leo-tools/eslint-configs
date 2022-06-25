@@ -1,7 +1,15 @@
 'use strict'
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    parser: {
+      'ts': require.resolve('@typescript-eslint/parser'),
+      'tsx': require.resolve('@typescript-eslint/parser'),
+    },
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
   plugins: ['@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended'
