@@ -1,6 +1,6 @@
 {
   "name": "@leo-tools/eslint-config-typescript",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "eslint for typescript",
   "author": "tc9011",
   "homepage": "https://github.com/leo-tools/eslint-configs#readme",
