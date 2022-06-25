@@ -1,6 +1,6 @@
 {
   "name": "@leo-tools/eslint-config-react-typescript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "eslint for react ts project",
   "keywords": [
     "eslint",
@@ -32,7 +32,7 @@
     "url": "https://github.com/leo-tools/eslint-configs/issues"
   },
   "dependencies": {
-    "@leo-tools/eslint-config-typescript": "^0.0.12",
+    "@leo-tools/eslint-config-typescript": "^0.0.13",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
