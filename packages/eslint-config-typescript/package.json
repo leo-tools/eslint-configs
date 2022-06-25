@@ -29,14 +29,14 @@
     "url": "https://github.com/leo-tools/eslint-configs/issues"
   },
   "dependencies": {
+    "@leo-tools/eslint-config-base": "^0.0.3",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
-    "eslint-plugin-import": "^2.26.0"
+    "babel-eslint": "^10.1.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 5",
-    "eslint": ">= 8",
-    "eslint-plugin-import": "@^2.26.1"
+    "eslint": ">= 8"
   },
   "gitHead": "1b96a24026fd27e34f1ffe574d6160864f9def1e"
 }
