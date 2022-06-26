@@ -43,6 +43,8 @@
     "eslint": "^8.18.0"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "eslint": ">= 8",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
