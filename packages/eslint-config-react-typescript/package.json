@@ -12,10 +12,12 @@
   "license": "MIT",
   "main": "index.js",
   "directories": {
-    "test": "__tests__"
+    "test": "__tests__",
+    "rules": "rules"
   },
   "files": [
-    "./"
+    "./",
+    "rules"
   ],
   "publishConfig": {
     "access": "public",
