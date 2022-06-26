@@ -6,5 +6,5 @@ module.exports = {
     require.resolve('./rules/react'),
     require.resolve('./rules/react-hooks'),
   ],
-  rules: []
+  rules: {}
 };
