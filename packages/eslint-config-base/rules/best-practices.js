@@ -223,7 +223,7 @@ module.exports = {
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
     // rule: https://eslint.org/docs/rules/no-param-reassign.html
-    'no-param-reassign': ['error', {
+    'no-param-reassign': ['off', {
       props: true,
       ignorePropertyModificationsFor: [
         'acc', // for reduce accumulators
@@ -292,7 +292,7 @@ module.exports = {
 
     // disallow use of assignment in return statement
     // https://eslint.org/docs/rules/no-return-assign
-    'no-return-assign': ['error', 'always'],
+    'no-return-assign': ['error', 'except-parens'],
 
     // disallow redundant `return await`
     // https://eslint.org/docs/rules/no-return-await
