@@ -1,6 +1,6 @@
 {
   "name": "@leo-tools/eslint-config-typescript",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "eslint for typescript",
   "author": "tc9011",
   "homepage": "https://github.com/leo-tools/eslint-configs#readme",
@@ -29,7 +29,7 @@
     "url": "https://github.com/leo-tools/eslint-configs/issues"
   },
   "dependencies": {
-    "@leo-tools/eslint-config-base": "^0.0.4",
+    "@leo-tools/eslint-config-base": "^0.0.5",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "babel-eslint": "^10.1.0"
