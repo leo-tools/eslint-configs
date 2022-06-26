@@ -24,3 +24,13 @@ if you have follow issue, update eslint-plugin-import
 ```text
 Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/util/glob-util' is not defined by "exports" 
 ```
+
+if you use jest, need to add follow setting
+```javascript
+module.exports = {
+  extends: ['@leo-tools/eslint-config-typescript'],
+  env: {
+    jest: true,
+  },
+}
+```

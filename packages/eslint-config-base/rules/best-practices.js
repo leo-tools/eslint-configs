@@ -18,13 +18,13 @@ module.exports = {
 
     // enforce that class methods use "this"
     // https://eslint.org/docs/rules/class-methods-use-this
-    'class-methods-use-this': ['error', {
+    'class-methods-use-this': ['off', {
       exceptMethods: [],
     }],
 
     // require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return
-    'consistent-return': 'error',
+    'consistent-return': 'off',
 
     // specify curly brace conventions for all control statements
     // https://eslint.org/docs/rules/curly
@@ -370,7 +370,7 @@ module.exports = {
 
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
-    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+    'prefer-promise-reject-errors': ['off', { allowEmptyReject: true }],
 
     // Suggest using named capture group in regular expression
     // https://eslint.org/docs/rules/prefer-named-capture-group

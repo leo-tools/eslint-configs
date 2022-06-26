@@ -367,7 +367,7 @@ module.exports = {
 
     // disallow dangling underscores in identifiers
     // https://eslint.org/docs/rules/no-underscore-dangle
-    'no-underscore-dangle': ['error', {
+    'no-underscore-dangle': ['off', {
       allow: [],
       allowAfterThis: false,
       allowAfterSuper: false,
