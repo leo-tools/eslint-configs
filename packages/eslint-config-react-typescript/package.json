@@ -1,6 +1,6 @@
 {
   "name": "@leo-tools/eslint-config-react-typescript",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "eslint for react ts project",
   "keywords": [
     "eslint",
