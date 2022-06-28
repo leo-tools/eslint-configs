@@ -34,7 +34,6 @@
     "url": "https://github.com/leo-tools/eslint-configs/issues"
   },
   "dependencies": {
-    "@leo-tools/eslint-config-react": "^0.0.2",
     "@leo-tools/eslint-config-typescript": "^0.0.20",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0"

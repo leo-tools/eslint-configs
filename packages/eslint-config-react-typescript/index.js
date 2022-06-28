@@ -3,7 +3,8 @@
 module.exports = {
   extends: [
     '@leo-tools/eslint-config-typescript',
-    '@leo-tools/eslint-config-react',
+    require.resolve('./rules/react'),
+    require.resolve('./rules/react-hooks'),
   ],
   rules: {}
 };
