@@ -342,7 +342,7 @@ module.exports = {
 
     // Prevent unused propType definitions
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
-    'react/no-unused-prop-types': ['error', {
+    'react/no-unused-prop-types': ['off', {
       customValidators: [
       ],
       skipShapeProps: true,
@@ -376,11 +376,11 @@ module.exports = {
 
     // Prevent usage of Array index in keys
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
-    'react/no-array-index-key': 'error',
+    'react/no-array-index-key': 'warn',
 
     // Enforce a defaultProps definition for every prop that is not a required prop
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/require-default-props.md
-    'react/require-default-props': ['error', {
+    'react/require-default-props': ['off', {
       forbidDefaultForRequired: true,
     }],
 
@@ -516,8 +516,8 @@ module.exports = {
     // Enforce a specific function type for function components
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
     'react/function-component-definition': ['error', {
-      namedComponents: 'arrow-function',
-      unnamedComponents: 'function-expression',
+      namedComponents: ['arrow-function', 'function-expression'],
+      unnamedComponents: ['arrow-function', 'function-expression'],
     }],
 
     // Enforce a new line after jsx elements and expressions
@@ -530,7 +530,7 @@ module.exports = {
 
     // Prevent creating unstable components inside components
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/c2a790a3472eea0f6de984bdc3ee2a62197417fb/docs/rules/no-unstable-nested-components.md
-    'react/no-unstable-nested-components': 'error',
+    'react/no-unstable-nested-components': 'off',
 
     // Enforce that namespaces are not used in React elements
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/8785c169c25b09b33c95655bf508cf46263bc53f/docs/rules/no-namespace.md
