@@ -1,0 +1,49 @@
+{
+  "name": "@leo-tools/eslint-config-react",
+  "version": "0.0.0",
+  "description": "eslint for react",
+  "keywords": [
+    "eslint",
+    "react"
+  ],
+  "author": "tc9011",
+  "homepage": "https://github.com/leo-tools/eslint-configs#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "__tests__",
+    "rules": "rules"
+  },
+  "files": [
+    "./",
+    "rules"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-tools/eslint-configs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leo-tools/eslint-configs/issues"
+  },
+  "dependencies": {
+    "@leo-tools/eslint-config-base": "^0.0.20",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint": "^8.18.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
