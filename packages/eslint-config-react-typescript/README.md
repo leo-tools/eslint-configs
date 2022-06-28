@@ -14,3 +14,11 @@ module.exports = {
   extends: ['@leo-tools/eslint-config-react-typescript'],
 }
 ```
+
+## FAQ
+
+if you have follow issue, update eslint-plugin-react and eslint-plugin-react-hooks
+
+```text
+Definition for rule '****' was not found
+```

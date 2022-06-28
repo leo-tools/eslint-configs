@@ -16,7 +16,7 @@ module.exports = {
     // https://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': ['error', 'prefer-double'],
 
-    'class-methods-use-this': ['error', {
+    'class-methods-use-this': ['off', {
       exceptMethods: [
         'render',
         'getInitialState',
@@ -310,7 +310,7 @@ module.exports = {
 
     // only .jsx files may have JSX
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
 
     // prevent accidental JS comments from being injected into JSX as text
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
@@ -428,7 +428,7 @@ module.exports = {
 
     // Enforce consistent usage of destructuring assignment of props, state, and context
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/destructuring-assignment.md
-    'react/destructuring-assignment': ['error', 'always'],
+    'react/destructuring-assignment': ['off', 'always'],
 
     // Prevent using this.state within a this.setState
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/no-access-state-in-setstate.md
@@ -480,11 +480,11 @@ module.exports = {
     // Enforces where React component static properties should be positioned
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
     // TODO: set to "static public field" once babel-preset-airbnb supports public class fields
-    'react/static-property-placement': ['error', 'property assignment'],
+    'react/static-property-placement': ['off', 'property assignment'],
 
     // Disallow JSX props spreading
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
-    'react/jsx-props-no-spreading': ['error', {
+    'react/jsx-props-no-spreading': ['off', {
       html: 'enforce',
       custom: 'enforce',
       explicitSpread: 'ignore',
@@ -550,7 +550,7 @@ module.exports = {
 
     // Prevent declaring unused methods of component class
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/21e01b61af7a38fc86d94f27eb66cda8054582ed/docs/rules/no-unused-class-component-methods.md
-    'react/no-unused-class-component-methods': 'error',
+    'react/no-unused-class-component-methods': 'off',
 
     // Ensure destructuring and symmetric naming of useState hook value and setter variables
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/c8833f301314dab3e79ef7ac4cf863e4d5fa0019/docs/rules/hook-use-state.md
